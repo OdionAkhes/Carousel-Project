@@ -14,7 +14,7 @@ body, #slider, .wrap, .slide-content {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    
 }
 .slide-content {
     display: flex;
@@ -65,12 +65,18 @@ body, #slider, .wrap, .slide-content {
 #arrow-left {
     border-width: 30px 40px 30px 0;
     left: 0;
-    border-color: transparent #8d5555 transparent transparent;
+    border-color: transparent transparent transparent transparent;
     margin-left: 30px;
+}
+#arrow-left:hover {
+  border-color: transparent #8d5555 transparent transparent;
 }
 #arrow-right {
     border-width: 30px 0px 30px 40px;
     right: 0;
         margin-right: 30px;
-    border-color: transparent transparent transparent #8d5555 ;
+    border-color: transparent transparent transparent transparent ;
+}
+#arrow-right:hover {
+  border-color: transparent transparent transparent #8d5555 ;
 }
